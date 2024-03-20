@@ -103,12 +103,18 @@ header a {
     text-decoration: none;
 }
 
-.profil h1, .profil h2, .profil h3 {
+.profil h1, .profil h2, .profil h3, .profil h4 {
     margin-bottom: 3%;
 }
 
 .profil h1{
     font-family: LT_renovate_medium, sans-serif;
+}
+
+.profil h4{
+    margin-top: -2%;
+    font-family:  LT_renovate, sans-serif;
+    font-weight: normal;
 }
 
 .profil p {
@@ -163,35 +169,21 @@ header a {
     color: white;
 }
 
-.animate-email
-{
-    text-transform: uppercase;
-    background-image: linear-gradient(
-            -225deg,
-            #784C84 0%,
-            #B491BF 50%,
-            #ffffff 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #ffffff;
-    background-clip: text;
-    text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear infinite;
-    display: inline-block;
-    font-weight: bold;
+
+.presentation {
+    padding: 3% 0;
+    text-align: center;
 }
 
-@keyframes textclip {
-    to {
-        background-position: 0% center;
-    }
-    from {
-        background-position: 200% center;
-    }
+.presentation h1{
+    margin-bottom: 2%;
+}
+
+.presentation p{
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 18px;
 }
 
 
@@ -230,4 +222,39 @@ footer {
 .contact_conteneur .info img {
     display: inline-block;
     width: 10%;
+}
+
+
+
+/* ANIMATIONS */
+
+.email-animee
+{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+            -225deg,
+            #784C84 0%,
+            #B491BF 50%,
+            #ffffff 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #ffffff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-weight: bold;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 0% center;
+    }
+    from {
+        background-position: 200% center;
+    }
 }
