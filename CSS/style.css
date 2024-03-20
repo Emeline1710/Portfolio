@@ -1,12 +1,6 @@
-/*
-Couleurs :
-#696969
-#E8E8E8
-#919191
-#B491BF
-#784C84
-#FFFFFF
- */
+/* Auteur : DELARUE Emeline */
+
+/* Couleurs du site : #696969; #E8E8E8; #919191; #B491BF; #784C84; #FFFFFF */
 
 * {
     margin: 0;
@@ -34,6 +28,8 @@ body {
     color: #919191;
     text-align: center;
 }
+
+/* HEADER */
 
 header {
     position: sticky;
@@ -81,6 +77,8 @@ header a {
     padding: 2% 3% 2% 2%;
 }
 
+
+/* BANNIERE */
 
 .rectangle_haut {
     background-color: #B491BF;
@@ -170,6 +168,8 @@ header a {
 }
 
 
+/* PRESENTATION */
+
 .presentation {
     padding: 3% 0;
     text-align: center;
@@ -187,6 +187,60 @@ header a {
 }
 
 
+/* ETUDES */
+
+.formations h1 {
+    margin-bottom: 2%;
+}
+
+.formations .formation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5%;
+}
+
+.formation .annee_conteneur {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+.formation .annee {
+    text-align: right;
+    font-weight: bold;
+    font-size: larger;
+    width: 30%;
+    margin-right: 3%;
+}
+
+.formation .lieu {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.formation ul {
+    list-style: none;
+}
+
+.formation li {
+    padding-top: 3%;
+}
+
+.formation .details_conteneur {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+.formation .details{
+    text-align: justify;
+    width: 80%;
+    margin-left: 3%;
+}
+
+
+/* FOOTER */
 
 footer {
     position: relative;
@@ -202,6 +256,10 @@ footer {
     padding-bottom: 3%;
 }
 
+.contact h1 {
+    margin-bottom: 2%;
+}
+
 .contact_conteneur {
     display: flex;
     justify-content: space-evenly;
@@ -214,6 +272,10 @@ footer {
     width: 30%;
 }
 
+.contact_conteneur .info h3 {
+    margin-bottom: 2%;
+}
+
 .contact_conteneur .info a {
     text-decoration: none;
     color: #ffffff;
@@ -221,7 +283,7 @@ footer {
 
 .contact_conteneur .info img {
     display: inline-block;
-    width: 10%;
+    width: 8%;
 }
 
 
